@@ -1,0 +1,93 @@
+h1{
+    text-align: center;
+}
+
+
+
+#result{
+    border-radius: 0%;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 90%;
+
+}
+#resultados{
+    
+    color: aliceblue;
+}
+input{
+    background-color: rgb(48, 48, 48);
+    border-radius: 50%;
+    color: aliceblue;
+    
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    
+    
+}
+.operador{
+    background-color: orange;
+    
+    color: aliceblue;
+    
+    
+}
+.calculadora{
+    margin-left: auto;
+  margin-right: auto;
+    border-radius: 5%;
+    background-color: black;
+    
+    
+    
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+}
+td{
+    text-align: center;
+}
+body{
+    background-color: gray;
+
+}
+    
+    
+
+*{
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.historico{
+    margin-left: auto;
+  margin-right: auto;
+    
+    border-radius: 15px;
+    background-color: black;
+    color: aliceblue;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+}
+#historico tbody {
+    max-width: 1000px; 
+    overflow-x: auto; /* Adiciona uma barra de rolagem horizontal se necessário */
+    display: block; 
+    
+}
+#historico td{
+    text-align: start;
+    text-wrap:nowrap;
+}
+
