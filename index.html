@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculadora.css">
+
+</head>
+
+<body>
+
+    <h1>Calculator</h1>
+    
+    <table class="calculadora">
+
+        <tbody>
+            <tr>
+                <td id="resultados" colspan="4"><input type="text" id="result" readonly value=""></td>
+            </tr>
+
+
+
+            <tr>
+                <td> <label><input class="operador" type="button" value="%"></label></td>
+                <td><label><input class="operador" type="button" value="CE"></label></td>
+                <td><label><input  class="operador" type="button" value="C"></label> </td>
+                <td><label><input class="operador" type="button" value="DEL"></label></td>
+            </tr>
+
+
+            <tr>
+                <td> <label><input type="button" value="7"></label></td>
+                <td><label><input type="button" value="8"></label></td>
+                <td><label><input type="button" value="9"></label> </td>
+                <td><label><input class="operador" type="button" value="/"></label></td>
+            </tr>
+
+
+
+            <tr>
+                <td> <label><input type="button" value="4"></label></td>
+                <td><label><input type="button" value="5"></label></td>
+                <td><label><input type="button" value="6"></label> </td>
+                <td><label><input class="operador"  type="button" value="*"></label></td>
+            </tr>
+
+
+            <tr>
+                <td> <label><input type="button" value="1"></label></td>
+                <td><label><input type="button" value="2"></label></td>
+                <td><label><input type="button" value="3"></label> </td>
+                <td><label><input class="operador" type="button" value="-"></label></td>
+            </tr>
+
+            <tr>
+                <td><label><input type="button" value="."></label> </td>
+                
+                <td><label><input type="button" value="0"></label></td>
+                <td><label><input class="operador" type="button" value="+"></label></td>
+                <td> <label><input class="operador" type="button" value="="></label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label><input class="operador" type="button" value="$ > €"></label> </td>
+                <td colspan="2"><label><input class="operador" type="button" value="€ > $"></label> </td>
+
+
+
+            </tr>
+
+          
+
+
+
+
+        </tbody>
+    </table>
+    <br>
+
+  
+   
+    <table id="historico" class="historico">
+        <tr>
+        <th style="text-align: start;" >
+             History
+        </th>
+    </tr>
+
+        <tbody>
+            
+
+
+
+            
+                
+
+
+
+           
+
+          
+
+
+
+
+        </tbody>
+    </table>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.3.0/math.js" integrity="sha512-TaKu3GlWLNU3fyPcvsSHSh44vX/Z43ePJDRTJr7IuUKVlUHHsHm7ODYNt5xffy75M6MOXsh7p+VyXCk5icuoxQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="calculadora.js"></script>
+    
+
+
+</body>
+
+</html>
